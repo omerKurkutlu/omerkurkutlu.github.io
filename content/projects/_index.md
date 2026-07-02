@@ -1,22 +1,23 @@
 ---
-title: 'Projects'
+title: "Projects"
 date: 2024-05-19
 type: landing
 
-# Page sections
 sections:
   - block: collection
     content:
-      title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      title: Research Projects
+      text: |
+        My research spans autonomous robotics, vision-based navigation, TinyML, embedded AI, and intelligent robotic systems. Below are selected research and engineering projects developed throughout my academic and industrial career.
       filters:
         folders:
           - projects
+      order: desc
     design:
       view: article-grid
-      fill_image: false
+      fill_image: true
       columns: 3
       show_date: false
       show_read_time: false
-      show_read_more: false
+      show_read_more: true
 ---

@@ -1,116 +1,146 @@
 schema: hugoblox/author/v1
 slug: me
 is_owner: true
+avatar: avatar.JPG
+
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
+  display: Ömer Kurkutlu
+  given: Ömer
+  family: Kurkutlu
+  alternate: ''
+  pronunciation: ''
+  pronouns: ''
+
+postnominals: []
+
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: "🤖"
+
+role: PhD Candidate in Electrical and Computer Engineering
+
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  I am a PhD Candidate in Electrical and Computer Engineering at the University of Illinois Chicago. My research focuses on autonomous robotics, vision-based navigation, reinforcement learning, TinyML, embedded AI, and resource-constrained robotic systems.
+
+button:
+  text: Download CV
+  url: /uploads/cv.pdf
+  icon: hero/arrow-down-tray
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: University of Illinois Chicago
+    url: https://www.uic.edu/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:okurku2@uic.edu
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
+
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/omerKurkutlu
+
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://www.linkedin.com/
+
+  - icon: brands/youtube
+    url: https://www.youtube.com/@omerkurkutlu6445
+
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://scholar.google.com/citations?user=D0asCh7DmJ8C&hl=en&oi=ao
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Robotics
+  - Autonomous Navigation
+  - Tiny Drones
+  - Deep Reinforcement Learning
+  - Vision-Based Navigation
+  - Vision-Language-Action Models
+  - TinyML
+  - Edge AI
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
-    summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+  - degree: PhD in Electrical and Computer Engineering
+    institution: University of Illinois Chicago
+    start: 2024-08-01
+    end: ''
+
+  - degree: PhD in Electrical Engineering
+    institution: University of Notre Dame
+    start: 2023-08-01
+    end: 2024-08-01
+
+  - degree: Bachelor of Engineering in Computer Engineering
+    institution: University of Pune
+    start: 2015-08-01
+    end: 2021-05-01
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: research Assistant
+    org: University of Illinois Chicago
+    start: 2024-08-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      Research on autonomous tiny drones, vision-based navigation, reinforcement learning, TinyML, embedded AI, and resource-constrained robotic systems.
+
+  - role: Teaching Assistant
+    org: University of Illinois Chicago
+    start: 2025-01-01
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Teaching Assistant for Computer Architecture.
+
+  - role: research Assistant
+    org: University of Notre Dame
+    start: 2023-05-01
+    end: 2024-08-01
+    summary: |
+      Bio-inspired robotics, reinforcement learning, ROS, Gazebo, and autonomous robotic systems.
+
+  - role: Robotics Software Engineer
+    org: Kontrolmatik Technologies
+    start: 2022-01-01
+    end: 2022-09-01
+    summary: |
+      Motion planning, robot control, ROS, MoveIt, Gazebo, and industrial robotics.
 
 skills:
-  - name: Technical Skills
+  - name: Programming & Systems
     items:
       - label: Python
         level: 5
-      - label: Machine Learning
+      - label: C/C++
         level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
+      - label: ROS / ROS2
+        level: 5
+      - label: Linux
+        level: 5
+
+  - name: Robotics & AI
     items:
-      - label: Academic Writing
+      - label: Deep Reinforcement Learning
         level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
+      - label: NVIDIA Isaac Sim
+        level: 5
+      - label: Gazebo
+        level: 5
+      - label: TinyML
         level: 4
 
 languages:
   - name: English
     level: 5
+    label: Professional
+
+  - name: Turkish
+    level: 5
     label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
+  - title: DAC 2026 Young Fellows Program
+    awarder: Design Automation Conference
+    date: "2026-06-01"
+    summary: Selected for the DAC Young Fellows Program.
+    icon: hero/trophy
+
+  - title: Sigma Xi Associate Membership
+    awarder: Sigma Xi
+    date: "2026-05-01"
+    summary: Inducted into the Sigma Xi Scientific research Honor Society.
     icon: hero/trophy

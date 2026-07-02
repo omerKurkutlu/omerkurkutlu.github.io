@@ -1,12 +1,11 @@
 ---
 title: Publications
+summary: Peer-reviewed publications, conference papers, workshop papers, and preprints.
 cms_exclude: true
 
-# View.
 view: citation
 
-# Optional header image (relative to `static/media/` folder).
 banner:
-  caption: ''
-  image: ''
+  caption: ""
+  image: ""
 ---

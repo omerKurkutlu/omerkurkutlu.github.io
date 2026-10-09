@@ -19,10 +19,9 @@ tags:
 featured: true
 
 links:
-  - icon: github
-    icon_pack: fab
-    name: GitHub
-    url: "#"
+  - name: Demo
+    url: https://www.youtube.com/watch?v=JR5QI67bjq8
+
 ---
 
 ## Overview

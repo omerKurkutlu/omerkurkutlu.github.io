@@ -19,7 +19,7 @@ status:
 role: PhD Candidate in Electrical and Computer Engineering
 
 bio: |
-  I am a PhD Candidate in Electrical and Computer Engineering at the University of Illinois Chicago. My research focuses on autonomous robotics, vision-based navigation, reinforcement learning, TinyML, embedded AI, and resource-constrained robotic systems.
+  I am a Ph.D. candidate in Electrical and Computer Engineering at the University of Illinois Chicago, advised by Dr. Arman Roohi. I specialize in robot learning, Physical AI, and autonomous systems. My research focuses on deep reinforcement learning, vision-language-action models, vision-based navigation, sim-to-real, and resource-constrained robotics, with hands-on experience in NVIDIA Isaac Sim/Isaac Lab, ROS/ROS2, and embedded AI.
 
 button:
   text: Download CV
@@ -39,7 +39,7 @@ links:
     url: https://github.com/omerKurkutlu
 
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/%C3%B6mer-kurkutlu-3b7a0592
 
   - icon: brands/youtube
     url: https://www.youtube.com/@omerkurkutlu6445
@@ -48,14 +48,13 @@ links:
     url: https://scholar.google.com/citations?user=D0asCh7DmJ8C&hl=en&oi=ao
 
 interests:
-  - Robotics
-  - Autonomous Navigation
-  - Tiny Drones
+  - Robot Learning & Physical AI
   - Deep Reinforcement Learning
-  - Vision-Based Navigation
   - Vision-Language-Action Models
-  - TinyML
-  - Edge AI
+  - Vision-Based Navigation
+  - Sim-to-Real Transfer
+  - Tiny Drones & Micro Robots
+  - TinyML & Edge AI
 
 education:
   - degree: PhD in Electrical and Computer Engineering
@@ -74,54 +73,91 @@ education:
     end: 2021-05-01
 
 experience:
-  - role: research Assistant
+  - role: Research Assistant
     org: University of Illinois Chicago
     start: 2024-08-01
     summary: |
-      Research on autonomous tiny drones, vision-based navigation, reinforcement learning, TinyML, embedded AI, and resource-constrained robotic systems.
+      Research under the supervision of Dr. Arman Roohi.
+      - **Crazyflie Isaac Framework (CIF):** Developed and open-sourced a modular NVIDIA Isaac Sim framework for Crazyflie research, integrating configurable controllers, sensors, environments, and autonomous algorithms for DRL, multi-drone, benchmarking, and sim-to-real experimentation ([GitHub](https://github.com/omerKurkutlu/Crazyflie-Isaac-Framework)).
+      - **Vision-Language-Action (VLA) for Embodied Robotics (ongoing):** Developing an application-specific VLA framework for resource-constrained robots, exploring DINO/SigLIP vision encoders, LoRA-adapted LLaMA models, knowledge distillation, imitation learning, and simulation-based RL for task-specific policy learning.
+      - **Vision-Based Tiny-Drone Navigation:** Developed and deployed a fully onboard Crazyflie navigation stack integrating INT8 monocular depth, multi-range sensing, occupancy mapping, and dynamic path planning on GAP8.
+      - **Edge Perception / Temporal Consistency:** Developed lightweight TinyML perception for resource-constrained edge platforms, including temporally consistent obstacle detection, embedded inference, BLE, and energy-aware sensing.
 
   - role: Teaching Assistant
     org: University of Illinois Chicago
     start: 2025-01-01
     summary: |
-      Teaching Assistant for Computer Architecture.
+      Computer Architecture (senior-level undergraduate course). Delivered a SimpleScalar tutorial, supported students in computer architecture topics, and graded assignments/exams with technical feedback and mentorship.
 
-  - role: research Assistant
+  - role: Research Assistant
     org: University of Notre Dame
     start: 2023-05-01
     end: 2024-08-01
     summary: |
-      Bio-inspired robotics, reinforcement learning, ROS, Gazebo, and autonomous robotic systems.
+      Research under the supervision of Dr. Yasemin Ozkan Aydin.
+      - **Learning-Based Quadruped Locomotion:** Developed DQN-based locomotion for a salamander-inspired quadruped, integrating spinal–limb coordination and validating policies in simulation and on a physical Dynamixel/Raspberry Pi platform ([Demo](https://www.youtube.com/watch?v=JR5QI67bjq8)).
+      - **Autonomous Tunnel Burrowing System:** Developed and field-tested an autonomous excavation robot integrating depth perception, force/torque sensing, motion planning, and interchangeable tools ([Demo](https://www.youtube.com/playlist?list=PLxYZuRPj6mQYaS3WxGKvuIG2CWHJ25YgB)).
 
   - role: Robotics Software Engineer
     org: Kontrolmatik Technologies
     start: 2022-01-01
     end: 2022-09-01
     summary: |
-      Motion planning, robot control, ROS, MoveIt, Gazebo, and industrial robotics.
+      Motion Planning & Robot Control. Developed C++/ROS motion-planning and control software for UR5e robots using inverse kinematics, collision checking, MoveIt, OMPL, and CHOMP.
 
 skills:
-  - name: Programming & Systems
+  - name: Robot Learning & Physical AI
     items:
-      - label: Python
+      - label: Deep RL (PPO, SAC, DQN)
         level: 5
-      - label: C/C++
+      - label: Vision-Language-Action / VLMs
+        level: 4
+      - label: Sim-to-Real
+        level: 5
+      - label: Motion / Path Planning
+        level: 5
+      - label: Multi-Agent Robotics & Sensor Fusion
+        level: 4
+
+  - name: Perception & Efficient AI
+    items:
+      - label: Computer Vision & Monocular Depth
+        level: 5
+      - label: Object Detection (YOLO, SSD, FOMO)
+        level: 5
+      - label: INT8 Quantization & Distillation
+        level: 4
+      - label: TinyML / Edge AI
+        level: 5
+
+  - name: Robotics & Simulation
+    items:
+      - label: NVIDIA Isaac Sim / Isaac Lab
         level: 5
       - label: ROS / ROS2
         level: 5
-      - label: Linux
+      - label: Gazebo, MuJoCo, SOFA
+        level: 4
+      - label: MoveIt, RViz, URDF/USD
         level: 5
 
-  - name: Robotics & AI
+  - name: Programming & Frameworks
     items:
-      - label: Deep Reinforcement Learning
+      - label: Python
         level: 5
-      - label: NVIDIA Isaac Sim
+      - label: C / C++ / Embedded C
         level: 5
-      - label: Gazebo
+      - label: PyTorch / TensorFlow
         level: 5
-      - label: TinyML
-        level: 4
+      - label: OpenCV, Linux, Docker, Git
+        level: 5
+
+  - name: Embedded Platforms & Robots
+    items:
+      - label: NVIDIA Jetson, Raspberry Pi, STM32, ESP32, GAP8
+        level: 5
+      - label: Crazyflie 2.x, UR5/UR5e, Husky, Unitree Go2/G1
+        level: 5
 
 languages:
   - name: English
@@ -136,11 +172,11 @@ awards:
   - title: DAC 2026 Young Fellows Program
     awarder: Design Automation Conference
     date: "2026-06-01"
-    summary: Selected for the DAC Young Fellows Program.
+    summary: Selected participant in the Design Automation Conference Young Fellows Program.
     icon: hero/trophy
 
-  - title: Sigma Xi Associate Membership
+  - title: Sigma Xi – Associate Member
     awarder: Sigma Xi
     date: "2026-05-01"
-    summary: Inducted into the Sigma Xi Scientific research Honor Society.
+    summary: Inducted into the Sigma Xi Scientific Research Honor Society.
     icon: hero/trophy

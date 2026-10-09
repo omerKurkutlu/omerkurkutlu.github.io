@@ -18,6 +18,14 @@ tags:
 
 featured: true
 
+links:
+  - name: Demo
+    url: https://www.youtube.com/watch?v=7ynvawNMwWk
+  - name: Simulation
+    url: https://www.youtube.com/watch?v=0DxQdT6U4pM&list=PLxYZuRPj6mQbpEWxYQ2gAdy5SrHOGtlZl
+  - name: GitHub
+    url: https://github.com/omerKurkutlu/OK1-QuadrupedRobot
+
 ---
 
 ## Overview
